@@ -1,0 +1,43 @@
+{
+  "name": "openbot-assertmedia",
+  "version": "0.1.0",
+  "description": "Deterministic CI assertions for images, audio and video your agent generates. Catch black frames, silent tracks and 0.2s renders before they ship.",
+  "type": "module",
+  "bin": {
+    "assertmedia": "./src/cli.mjs"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    ".": "./src/checks.mjs",
+    "./probe": "./src/probe.mjs",
+    "./fixtures": "./src/fixtures.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node demo/demo.mjs",
+    "demo": "node demo/demo.mjs",
+    "fixtures": "node scripts/make-fixtures.mjs",
+    "test": "node --test"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "cli",
+    "ci",
+    "media",
+    "image",
+    "audio",
+    "video",
+    "assertions",
+    "testing",
+    "developer-tools"
+  ],
+  "license": "MIT",
+  "author": "Xiao-KL"
+}

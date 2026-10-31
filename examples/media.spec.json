@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "file": {
+    "minBytes": 2048
+  },
+  "image": {
+    "minWidth": 1200,
+    "minHeight": 630,
+    "maxUniformRatio": 0.98
+  },
+  "video": {
+    "minDuration": 6,
+    "maxDuration": 15,
+    "minWidth": 1280,
+    "maxWidth": 4096,
+    "codec": ["h264", "hevc"],
+    "requireAudio": true,
+    "maxBlankRatio": 0.2
+  },
+  "audio": {
+    "minDuration": 6,
+    "maxDuration": 15,
+    "sampleRate": 48000,
+    "channels": 2,
+    "minRmsDbfs": -45
+  }
+}

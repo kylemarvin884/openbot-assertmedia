@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "image": {
+    "minWidth": 300,
+    "minHeight": 160,
+    "aspect": "16:9"
+  },
+  "audio": {
+    "minDuration": 1,
+    "sampleRate": 44100
+  },
+  "video": {
+    "minDuration": 1,
+    "maxDuration": 3,
+    "width": 320,
+    "height": 180,
+    "codec": "h264"
+  }
+}
